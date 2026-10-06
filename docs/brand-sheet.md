@@ -13,7 +13,7 @@ Inspected on 6 October 2026: joinfleek.com home (1366 px desktop and 390 px mobi
 | Token | Hex | Live use | Use here |
 |---|---|---|---|
 | `--cf-black` | `#0f0f0f` | Login button, headings | Primary text, primary button |
-| `--cf-yellow` | `#f8c642` | Sign Up button, careers hero, accent words, breadcrumb chevrons | Primary accent, "New bet" button, active tab |
+| `--cf-yellow` | `#f8c642` | Sign Up button, careers hero, accent words, breadcrumb chevrons | Primary accent, eyebrow pill, "Load pilot readings" button |
 | `--cf-yellow-dark` | `#e6b52f` | Hover | Hover |
 | `--cf-cream` | `#f6f1e7` | "As seen in" band, technology section | Page bands, panels |
 | `--cf-orange` | `#f25c2a` | Highlights | Kill / fail state |
@@ -26,10 +26,11 @@ Inspected on 6 October 2026: joinfleek.com home (1366 px desktop and 390 px mobi
 - Headings are 700–800 weight in tight, sentence-case blocks ("Vintage Denim", "The world's most broken supply chain"). Small caps-tracked eyebrow labels in dark yellow ("THE PROBLEM", "THE TECHNOLOGY").
 
 ## Components mirrored
-- **Top strip**: light grey promo bar, bold lead phrase and an underlined link. Here it carries the independence and synthetic-data notice.
+- **Top strip**: Fleek uses a thin promo bar with a bold lead phrase. Here it is black with the lead phrase in yellow and carries the independence notice.
 - **Header**: logo, icon+label nav ("Categories / Brands / Suppliers"), a 2 px black-bordered search box with a "Search for" placeholder, a yellow pill button and a black pill button.
-- **Breadcrumb**: `Home > Category > DENIM` with yellow chevrons. Used on bet pages.
-- **Listing cards**: white, thin border, image area, then the title, a bold price, a grey "$/pc" line and a grey "Shipping Inc." chip. Bet cards reuse this pattern: a category tile, the title, bold GMV, a grey "£/order contribution" line and a grey gate chip.
-- **FleekSort card**: a window-chrome bar with traffic-light dots and a monospaced label ("FleekSort - AI Grading"), a yellow price pill, cream sub-panels with check-mark lists, and a large yellow metric row ("~6s latency · 82% accuracy"). Reused for the unit-economics and gate-readout panels.
+- **Listing cards**: white, thin border, image area, then the title, a bold price, a grey "$/pc" line and a grey "Shipping Inc." chip. Bet cards reuse this pattern: a category tile with a HYPOTHESIS badge, the title, bold bundle price, grey £/pc, the "Shipping Inc." chip, contribution per bundle and a gate chip.
+- **Technology section cards**: cream sub-panels and a large metric row. Reused as cream KPI tiles above the bundle P&L.
 - **Stat tiles**: small white bordered boxes with a large bold number and a small caption ("15B items collected/year").
 - **Mobile**: a hamburger and logo row, then a full-width search box, a single column, and full-width yellow CTAs.
+
+See [visual-guide.md](visual-guide.md) for the screen-by-screen rules and reference captures.
