@@ -1,9 +1,19 @@
-name: Build and test
+name: Build, test and deploy
 
 on:
   push:
     branches: ['**']
   pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   check:
@@ -18,3 +28,18 @@ jobs:
       - run: npm run typecheck
       - run: npm test
       - run: npm run build:pages
+      - run: touch out/.nojekyll
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+
+  deploy:
+    needs: check
+    if: github.event_name != 'pull_request' && (github.ref == 'refs/heads/build/category-bet-desk' || github.ref == 'refs/heads/main')
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
