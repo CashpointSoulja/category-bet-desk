@@ -1,5 +1,5 @@
 'use client';
-import type { Assumption, AssumptionKey, Assumptions } from '@/lib/model';
+import type { Assumption, AssumptionKey, Assumptions } from '@/lib/engine';
 import { BasisChip } from './Basis';
 
 const SUFFIX: Record<string, string> = { '%': '%', '£': '£', '£/pc': '£/pc', '£/kg': '£/kg', 'kg/pc': 'kg', pcs: 'pcs', count: '', 'per month': '/mo', 'per year': '/yr', '£/yr': '£/yr' };

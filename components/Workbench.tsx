@@ -1,7 +1,7 @@
 'use client';
 import { useEffect, useMemo, useReducer, useState } from 'react';
 import { CATEGORIES, getCategory, type CategoryBet } from '@/lib/categories';
-import { basisCounts, bundleEconomics, evaluateGate, ramp, validate, valuesOf, type AssumptionKey } from '@/lib/model';
+import { basisCounts, bundleEconomics, evaluateGate, ramp, validate, valuesOf, type AssumptionKey } from '@/lib/engine';
 import { initialState, load, reducer, save } from '@/lib/state';
 import { gbp, gbpShort } from '@/lib/format';
 import { asset } from '@/lib/asset';
@@ -162,7 +162,7 @@ function Desk({ bet, onPick }: { bet: CategoryBet; onPick: (id: CategoryBet['id'
               </div>
               {!ok && (
                 <div className="issue" role="alert">
-                  The model will not calculate until these are fixed: {issues.map((i) => i.message).join(' ')}
+                  The desk will not calculate until these are fixed: {issues.map((i) => i.message).join(' ')}
                 </div>
               )}
               <div className="grid-econ">
@@ -254,7 +254,7 @@ function Desk({ bet, onPick }: { bet: CategoryBet; onPick: (id: CategoryBet['id'
               <Scorecard metrics={s.metrics} gate={gate} onChange={(id, field, value) => dispatch({ type: 'setMetric', id, field, value })} />
               {ok && (
                 <p className="small muted" style={{ marginTop: 10 }}>
-                  For reference, the model above predicts {gbp(e.contribution)} contribution per bundle at a {v.disputeRate}% dispute rate. The gate reads observed pilot values, not the model.
+                  For reference, the bundle P&L above predicts {gbp(e.contribution)} contribution per bundle at a {v.disputeRate}% dispute rate. The gate reads observed pilot values, not the forecast.
                 </p>
               )}
             </div>

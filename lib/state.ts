@@ -1,4 +1,4 @@
-import type { AssumptionKey, Assumptions, GateMetric, MetricId } from './model';
+import type { AssumptionKey, Assumptions, GateMetric, MetricId } from './engine';
 import type { CategoryBet, RiskItem } from './categories';
 import { CATEGORIES } from './categories';
 

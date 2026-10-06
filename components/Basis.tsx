@@ -1,4 +1,4 @@
-import type { Basis, SourceRef } from '@/lib/model';
+import type { Basis, SourceRef } from '@/lib/engine';
 
 const LABEL: Record<Basis, string> = { sourced: 'Sourced', estimated: 'Estimated', placeholder: 'Placeholder' };
 

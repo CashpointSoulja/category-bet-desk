@@ -22,7 +22,7 @@ Every Fleek-specific fact in the desk comes from a public page below. All pages 
 ## Conflicts kept, not resolved
 
 - **Buyers:** the home page says 45,000+; Fortune and The Next Web say 50,000+. The desk quotes each with its source.
-- **Currency:** listings showed USD to this visitor; the desk models GBP and converts listing prices at an **estimated** 0.75 £/$, labelled in the UI.
+- **Currency:** listings showed USD to this visitor; the desk works in GBP and converts listing prices at an **estimated** 0.75 £/$, labelled in the UI.
 
 ## Not public, therefore placeholders
 

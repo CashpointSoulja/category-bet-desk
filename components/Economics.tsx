@@ -1,5 +1,5 @@
 'use client';
-import type { BundleEconomics, Values } from '@/lib/model';
+import type { BundleEconomics, Values } from '@/lib/engine';
 import type { ListingAnchor } from '@/lib/categories';
 import { USD_TO_GBP, USD_TO_GBP_NOTE } from '@/lib/sources';
 import { gbp, pct } from '@/lib/format';
@@ -71,7 +71,7 @@ export function AnchorCheck({ e, anchor }: { e: BundleEconomics; anchor: Listing
   const inside = ppcUsd >= anchor.minUsd && ppcUsd <= anchor.maxUsd;
   return (
     <div className={`anchor-check ${inside ? 'anchor-in' : 'anchor-out'}`}>
-      <strong>Price check against public listings.</strong> Modelled buyer price {gbp(e.buyerPricePerPiece)}/pc ≈ ${ppcUsd.toFixed(2)}/pc{' '}
+      <strong>Price check against public listings.</strong> Calculated buyer price {gbp(e.buyerPricePerPiece)}/pc ≈ ${ppcUsd.toFixed(2)}/pc{' '}
       {inside ? 'sits inside' : 'sits outside'} the ${anchor.minUsd.toFixed(2)}–${anchor.maxUsd.toFixed(2)}/pc range seen on joinfleek.com.{' '}
       {anchor.sources.map((s) => (
         <BasisChip key={s.url} basis="sourced" source={s} />

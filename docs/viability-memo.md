@@ -4,7 +4,7 @@ Independent concept by Ayomide Ahmed. Not an official Fleek product. Uses public
 
 ## The role, from public sources
 
-The [job post](https://www.ycombinator.com/companies/fleek/jobs/Iopbt9d-special-projects-lead-category-expansion) describes a London-based owner who takes "new category bets from thesis to proven economics", each of which "could add £5M+ in GMV", taking each from thesis to first suppliers, first GMV and a feasible-or-not call, with win and kill metrics agreed up front. Fleek's public scale: about 2,000 verified suppliers and more than 50,000 buyers in 100+ countries ([Fortune](https://fortune.com/2026/07/08/fleek-an-online-marketplace-connecting-vintage-clothing-wholesalers-and-retailers-raises-25-million-in-new-funding/), July 2026; the home page says 45,000+ buyers), a $25M Series B, and FleekSort, its grading model for secondhand clothing ([The Next Web](https://thenextweb.com/news/fleek-25m-series-b-secondhand-fashion-ai); [careers page](https://www.joinfleek.com/careers), which cites about 82% accuracy).
+The [job post](https://www.ycombinator.com/companies/fleek/jobs/Iopbt9d-special-projects-lead-category-expansion) describes a London-based owner who takes "new category bets from thesis to proven economics", each of which "could add £5M+ in GMV", taking each from thesis to first suppliers, first GMV and a feasible-or-not call, with win and kill metrics agreed up front. Fleek's public scale: about 2,000 verified suppliers and more than 50,000 buyers in 100+ countries ([Fortune](https://fortune.com/2026/07/08/fleek-an-online-marketplace-connecting-vintage-clothing-wholesalers-and-retailers-raises-25-million-in-new-funding/), July 2026; the home page says 45,000+ buyers), a $25M Series B, and FleekSort, its grading system for secondhand clothing ([The Next Web](https://thenextweb.com/news/fleek-25m-series-b-secondhand-fashion-ai); [careers page](https://www.joinfleek.com/careers), which cites about 82% accuracy).
 
 ## Why a desk, and why for this seat
 
@@ -21,7 +21,7 @@ The [job post](https://www.ycombinator.com/companies/fleek/jobs/Iopbt9d-special-
 
 ## Cost and risk
 
-The desk is a static site with no back end; v1 costs nothing to run. The main risk is false confidence from a simple model, which the labels, sensitivity tables and gate refusals are there to counter.
+The desk is a static site with no back end; v1 costs nothing to run. The main risk is false confidence from a simple calculation, which the labels, sensitivity tables and gate refusals are there to counter.
 
 ## Recommendation
 

@@ -1,6 +1,6 @@
 'use client';
-import type { GateMetric, GateResult, MetricId } from '@/lib/model';
-import { fmtMetric } from '@/lib/model';
+import type { GateMetric, GateResult, MetricId } from '@/lib/engine';
+import { fmtMetric } from '@/lib/engine';
 import { BasisChip } from './Basis';
 
 const STATUS_LABEL = { scale: 'Scale', hold: 'Hold', kill: 'Kill', insufficient: 'Sample too small', 'no-data': 'Not measured', invalid: 'Invalid thresholds' } as const;

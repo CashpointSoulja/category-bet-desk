@@ -64,13 +64,13 @@ export function valuesOf(a: Assumptions): Values {
   return out;
 }
 
-export interface ModelIssue {
+export interface InputIssue {
   key: AssumptionKey | 'gradeMix';
   message: string;
 }
 
-export function validate(v: Values): ModelIssue[] {
-  const issues: ModelIssue[] = [];
+export function validate(v: Values): InputIssue[] {
+  const issues: InputIssue[] = [];
   const mix = v.gradeA + v.gradeB + v.gradeC;
   if (Math.abs(mix - 100) > 0.01) issues.push({ key: 'gradeMix', message: `Grade mix sums to ${round(mix, 1)}%, not 100%.` });
   for (const k of ['gradeA', 'gradeB', 'gradeC', 'takeRate', 'paymentCostPct', 'disputeRate', 'refundShare', 'supplierRecovery', 'newBuyerShare', 'sellThrough', 'buyerRetention'] as const) {

@@ -1,4 +1,4 @@
-import type { SourceRef } from './model';
+import type { SourceRef } from './engine';
 
 /** Public sources only. Accessed 6 October 2026. */
 export const SOURCES = {
@@ -20,4 +20,4 @@ export const SOURCES = {
 
 /** Listing prices on joinfleek.com are shown in USD to this visitor; the desk works in GBP. */
 export const USD_TO_GBP = 0.75;
-export const USD_TO_GBP_NOTE = 'Estimated conversion for comparing public USD listing prices with the GBP model. Not a quoted rate.';
+export const USD_TO_GBP_NOTE = 'Estimated conversion for comparing public USD listing prices with the GBP figures. Not a quoted rate.';

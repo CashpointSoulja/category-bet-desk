@@ -6,7 +6,7 @@ Independent concept by Ayomide Ahmed. Not an official Fleek product.
 
 Fleek's Special Projects Lead, Category Expansion takes "new category bets from thesis to proven economics"; each "could add £5M+ in GMV". The [job post](https://www.ycombinator.com/companies/fleek/jobs/Iopbt9d-special-projects-lead-category-expansion) describes the loop: write the thesis, sign the first suppliers, get first GMV, then make a feasible-or-not call, with win and kill metrics set at the start.
 
-The inputs to that call live in different places: supplier quotes, grading samples, freight quotes, pilot orders, and a spreadsheet model. When they are apart, three things go wrong:
+The inputs to that call live in different places: supplier quotes, grading samples, freight quotes, pilot orders, and a spreadsheet. When they are apart, three things go wrong:
 
 1. The P&L per bundle and the path to £5M are argued separately, so a bet can look good on margin and still never reach scale (or the other way round).
 2. Kill thresholds get set after the data comes in, which makes them easy to move.
@@ -44,9 +44,9 @@ For one bet, show the thesis, the bundle economics, the ramp to £5M and the gat
 - **Scale** only if every metric clears the scale line on at least its minimum sample.
 - **Hold** otherwise, listing each gap (not measured, sample too small, between the lines).
 - **Invalid** if a kill line sits on the scale side of its scale line. The desk refuses to call the gate.
-- The bundle model refuses to compute if the grade mix does not sum to 100% or the take rate is 100% or more.
+- The bundle P&L refuses to compute if the grade mix does not sum to 100% or the take rate is 100% or more.
 
-## Model definitions
+## Calculation definitions
 
 - Goods price = supplier payout ÷ (1 − take rate). Take revenue = goods price − payout. TechCrunch reports Fleek "take[s] a cut on the payment"; the rate is a placeholder.
 - Bundle GMV = goods price + shipping built into the price ("Shipping Inc." on listings).

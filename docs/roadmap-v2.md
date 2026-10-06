@@ -10,6 +10,6 @@
 | 6 | **Supplier concentration check.** Hold the gate if one supplier carries most of the GMV. | A bet that depends on one supplier is not proven. |
 | 7 | **Grade calibration view.** Confusion matrix of FleekSort vs QC grades per category. | Shows which grade boundary causes disputes. |
 | 8 | **Shareable memo link** and PDF export without the print dialog. | Easier to circulate before a decision meeting. |
-| 9 | **Currency.** Model in GBP, USD or EUR with a dated rate. | Listings show USD to some visitors. |
+| 9 | **Currency.** Work in GBP, USD or EUR with a dated rate. | Listings show USD to some visitors. |
 
 Not planned: buyer- or supplier-level data in the memo, and automatic scale decisions. The desk recommends; the bet owner decides.

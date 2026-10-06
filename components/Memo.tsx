@@ -1,6 +1,6 @@
 import type { CategoryBet } from '@/lib/categories';
-import type { BundleEconomics, GateResult, Ramp, Values } from '@/lib/model';
-import { basisCounts, fmtMetric } from '@/lib/model';
+import type { BundleEconomics, GateResult, Ramp, Values } from '@/lib/engine';
+import { basisCounts, fmtMetric } from '@/lib/engine';
 import type { BetState } from '@/lib/state';
 import { gbp, gbpShort, pct } from '@/lib/format';
 import { asset } from '@/lib/asset';

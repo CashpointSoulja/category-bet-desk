@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { bundleEconomics, evaluateGate, oneWaySensitivity, ramp, twoWayGrid, validate, valuesOf, type GateMetric, type Values } from '@/lib/model';
+import { bundleEconomics, evaluateGate, oneWaySensitivity, ramp, twoWayGrid, validate, valuesOf, type GateMetric, type Values } from '@/lib/engine';
 import { CATEGORIES } from '@/lib/categories';
 import { initialState, reducer } from '@/lib/state';
 

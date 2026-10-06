@@ -1,4 +1,4 @@
-import type { Assumption, AssumptionKey, Assumptions, Basis, GateMetric, SourceRef } from './model';
+import type { Assumption, AssumptionKey, Assumptions, Basis, GateMetric, SourceRef } from './engine';
 import { SOURCES } from './sources';
 
 export interface ThesisPoint {

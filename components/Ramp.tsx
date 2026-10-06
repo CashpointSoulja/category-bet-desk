@@ -1,7 +1,7 @@
 'use client';
 import { useMemo, useState } from 'react';
-import type { AssumptionKey, Assumptions, Ramp as RampT, Values } from '@/lib/model';
-import { bundleEconomics, oneWaySensitivity, ramp, twoWayGrid } from '@/lib/model';
+import type { AssumptionKey, Assumptions, Ramp as RampT, Values } from '@/lib/engine';
+import { bundleEconomics, oneWaySensitivity, ramp, twoWayGrid } from '@/lib/engine';
 import { gbp, gbpShort, num } from '@/lib/format';
 
 export function RampChart({ r, target }: { r: RampT; target: number }) {

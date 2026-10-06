@@ -29,4 +29,4 @@
 
 | Anxiety | Habit |
 |---|---|
-| "The model is too simple" — answered by showing every formula and the sensitivity tables | Existing spreadsheets — answered by keeping the inputs the same ones a spreadsheet would have |
+| "The maths is too simple" — answered by showing every formula and the sensitivity tables | Existing spreadsheets — answered by keeping the inputs the same ones a spreadsheet would have |

@@ -13,7 +13,7 @@ Category Bet Desk is a thesis-to-economics workbench for one seat: Fleek's [Spec
 Pick one of three preloaded bets: **vintage sportswear & branded outdoor**, **Y2K & 90s denim**, or **kidswear**. For the chosen bet the desk shows:
 
 1. **Thesis card.** Who buys, who supplies, why Fleek wins, and the starting point (each of these categories is already listed on joinfleek.com, so each bet is a scale-up, not a launch from zero).
-2. **Unit economics per bundle.** Supplier cost by grade (A/B/C mix), FleekSort grading cost, take rate, shipping built into the price against actual freight, payments and BNPL cost, returns and dispute leakage, buyer CAC and CAC payback. A price check compares the modelled £/pc with public listing prices.
+2. **Unit economics per bundle.** Supplier cost by grade (A/B/C mix), FleekSort grading cost, take rate, shipping built into the price against actual freight, payments and BNPL cost, returns and dispute leakage, buyer CAC and CAC payback. A price check compares the calculated £/pc with public listing prices.
 3. **Path to £5M GMV.** A 24-month ramp where each month sells the lower of supplier capacity and buyer demand, with editable supply and demand assumptions, a chart against the £5M run-rate line, a one-way sensitivity table (±20% on each input) and three live two-way tables.
 4. **Stage-gate scorecard.** Scale and kill lines plus a minimum sample for repeat-buyer rate, dispute rate, contribution per bundle and grading agreement. One kill on an adequate sample kills the bet; scaling needs every metric past its scale line; missing or thin evidence holds. Illustrative pilot readings (clearly labelled as made up) show one SCALE, one HOLD and one KILL.
 5. **Risks and open questions.** Each item has a severity and a next step. You can add, close and reopen items.
@@ -39,7 +39,7 @@ npm run build      # static export to out/
 npm run build:pages  # same, with the /category-bet-desk base path for GitHub Pages
 ```
 
-Next.js 14 (App Router, static export) and TypeScript. The economics engine is pure functions in [`lib/model.ts`](lib/model.ts); the three bets are in [`lib/categories.ts`](lib/categories.ts).
+Next.js 14 (App Router, static export) and TypeScript. The economics engine is pure functions in [`lib/engine.ts`](lib/engine.ts); the three bets are in [`lib/categories.ts`](lib/categories.ts).
 
 ## Docs
 
