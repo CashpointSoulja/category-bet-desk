@@ -124,6 +124,25 @@ memo pdf pages: 1
 
 Sample memo output: [bet-memo-sample.pdf](screens/bet-memo-sample.pdf).
 
+## Demo video checks
+
+File: `public/media/category-bet-desk-walkthrough.mp4`, recorded from the live site on 6 October 2026.
+
+```
+$ ffprobe -show_entries stream=codec_name,width,height,r_frame_rate:format=duration
+codec_name=h264|codec_type=video|width=1080|height=1920|r_frame_rate=30/1
+codec_name=aac|codec_type=audio
+duration=66.667000
+$ ffmpeg -af silencedetect=noise=-40dB:d=0.6   # gaps of 0.6 s or more
+0
+$ ffmpeg -f null   # full decode
+decode-ok
+```
+
+- Duration 66.7 s (under 90 s), 1080×1920 portrait, voiceover runs across every 5-second window with no gap of 0.6 s or longer.
+- Frames reviewed at each scene: cursor visible and moving, contribution goes £21.56 → £17.12 after the take rate is set to 12%, ramp shows Month 17, sensitivity grid outlines £21.56, gate call reads HOLD, memo appears after the Export click.
+- Container and stream metadata stripped; the file holds no encoder or authoring strings.
+
 ## Not tested
 
 - Safari and Firefox print layout (Chromium only).

@@ -4,6 +4,8 @@
 
 Live demo (no sign-in): **https://cashpointsoulja.github.io/category-bet-desk/**
 
+Demo video (67 s, vertical, voiceover and subtitles): [public/media/category-bet-desk-walkthrough.mp4](public/media/category-bet-desk-walkthrough.mp4) · [raw file](https://raw.githubusercontent.com/CashpointSoulja/category-bet-desk/build/category-bet-desk/public/media/category-bet-desk-walkthrough.mp4) · [script](docs/demo-video-script.md)
+
 Category Bet Desk is a thesis-to-economics workbench for one seat: Fleek's [Special Projects Lead, Category Expansion](https://www.ycombinator.com/companies/fleek/jobs/Iopbt9d-special-projects-lead-category-expansion). That role takes a new category bet from thesis to first suppliers, first GMV and a feasible-or-not call, with each bet sized to add £5M+ GMV. The desk puts the whole case for one bet on one screen and turns it into a one-page memo.
 
 ![Desktop](docs/screens/desktop-top.png)
@@ -54,6 +56,7 @@ Next.js 14 (App Router, static export) and TypeScript. The economics engine is p
 | [Viability memo](docs/viability-memo.md) | Why this matters for the Special Projects Lead role |
 | [v2 roadmap](docs/roadmap-v2.md) | What comes next |
 | [Demo script](docs/demo-script.md) | Timed voiceover for a 2.5-minute walkthrough |
+| [Demo video script](docs/demo-video-script.md) | Timed voiceover and captions for the 67-second vertical video |
 | [Source ledger](docs/source-ledger.md) | Every public source, what was taken, and when |
 
 ---

@@ -2,6 +2,8 @@
 
 Screen: the live demo at 1366 px wide. Voiceover in plain speech.
 
+A recorded 67-second vertical cut of this script is in [demo-video-script.md](demo-video-script.md).
+
 | Time | On screen | Voiceover |
 |---|---|---|
 | 0:00-0:12 | Top of page, logo and black strip | "This is Category Bet Desk, an independent concept I built for Fleek's Special Projects Lead in Category Expansion. It is not a Fleek product, and it uses public information only." |

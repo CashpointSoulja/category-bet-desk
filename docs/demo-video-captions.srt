@@ -1,0 +1,104 @@
+1
+00:00:00,000 --> 00:00:02,780
+This is Category Bet Desk, an independent concept for
+
+2
+00:00:02,780 --> 00:00:05,507
+Fleek's Special Projects Lead in Category Expansion.
+
+3
+00:00:05,507 --> 00:00:08,811
+It uses public information only, and it is not a Fleek product.
+
+4
+00:00:08,803 --> 00:00:10,084
+I'll pick the first bet:
+
+5
+00:00:10,084 --> 00:00:12,164
+vintage sportswear and branded outdoor,
+
+6
+00:00:12,164 --> 00:00:14,512
+measured against five million pounds of GMV.
+
+7
+00:00:14,720 --> 00:00:18,252
+The thesis card says who buys, who supplies, and why Fleek wins.
+
+8
+00:00:18,252 --> 00:00:20,294
+Blue labels are sourced, and each one
+
+9
+00:00:20,294 --> 00:00:22,391
+links to the public page it came from.
+
+10
+00:00:22,604 --> 00:00:24,349
+Here is one ten-piece bundle.
+
+11
+00:00:24,349 --> 00:00:27,297
+After freight, grading, payments and disputes, it
+
+12
+00:00:27,297 --> 00:00:29,704
+contributes twenty-one pounds fifty-six.
+
+13
+00:00:29,923 --> 00:00:33,050
+Drop the take rate from fifteen to twelve percent, and contribution
+
+14
+00:00:33,050 --> 00:00:35,524
+per bundle falls straight to seventeen pounds twelve.
+
+15
+00:00:35,995 --> 00:00:38,470
+I'll put it back to fifteen before we move on.
+
+16
+00:00:38,684 --> 00:00:40,374
+The ramp sells the lower of what
+
+17
+00:00:40,374 --> 00:00:42,222
+suppliers list and what buyers buy.
+
+18
+00:00:42,222 --> 00:00:45,391
+This bet reaches a five-million run-rate in month seventeen.
+
+19
+00:00:45,782 --> 00:00:48,654
+The sensitivity table recalculates every cell live.
+
+20
+00:00:48,654 --> 00:00:50,682
+Here, contribution per bundle as the
+
+21
+00:00:50,682 --> 00:00:52,484
+take rate and dispute rate move.
+
+22
+00:00:52,699 --> 00:00:54,732
+The gates are set before any pilot.
+
+23
+00:00:54,732 --> 00:00:57,927
+With no measured readings yet, the scorecard says hold.
+
+24
+00:00:57,927 --> 00:01:00,018
+Missing data never counts as a pass.
+
+25
+00:01:00,224 --> 00:01:04,071
+Export bet memo gives one printable page for the decision meeting.
+
+26
+00:01:04,071 --> 00:01:06,227
+Independent concept by Ayomide Ahmed.
+
